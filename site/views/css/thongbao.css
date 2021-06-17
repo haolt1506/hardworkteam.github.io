@@ -1,0 +1,365 @@
+#our-classes {
+    margin-bottom: 0px;
+}
+
+.pdd0 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.row {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.card-thongbao {
+    width: 100%;
+    margin: auto;
+}
+
+.card-title h2 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #232d39;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.card-content {
+    width: 100%;
+    padding: 10px;
+}
+
+.card-content img {
+    width: 99%;
+    height: 400px;
+}
+
+.thongbao-trai {
+    float: left;
+    width: 70%;
+    padding: 10px;
+    margin-right: 5%;
+}
+
+.thongbao-phai {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.card-conclude {
+    float: right;
+}
+
+.tintucmoi a {
+    vertical-align: middle;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(66, 66, 66);
+}
+
+.tintuccu a {
+    vertical-align: middle;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(66, 66, 66);
+}
+
+.ttmoi h6 {
+    padding: 10px;
+    color: white;
+    border-width: 0 0 1px;
+}
+
+.tintuccu {
+    color: rgb(66, 66, 66);
+}
+
+.tintuckhac img {
+    width: 100%;
+}
+
+.tintuckhac .list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.75rem 0.25rem;
+    background-color: #fff;
+}
+
+.tbct-noidung {
+    font-size: 15px;
+    font-weight: 450;
+    color: black;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+
+.tbct-noidung:hover {
+    color: #0c0808;
+}
+
+.tbct-nguoidang {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+    float: right;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0rem;
+}
+
+.tbct-nguontt {
+    font-size: 16px;
+    font-style: italic;
+    color: black;
+    float: right;
+    margin-bottom: 0rem;
+}
+
+
+/* ////// CSS Comment ///// */
+
+
+/* .card-comment{
+    float: left;
+    width: 100%;
+    padding: 10px;
+
+}
+.nguoibl{
+    width: 20%;
+}
+textarea {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input#submit {
+    width: 20%;
+    padding: 7px;
+    border: none;
+    bottom: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 700;
+    color: rgb(3, 0, 0);
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+}
+input#submit:hover{
+ 
+    background: linear-gradient(to right, #fc466b, #3f5efb); 
+} */
+
+
+/* ////// CSS Panination ///// */
+
+.main-button {
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+
+.pagination-lgg .page-item:first-child .page-link {
+    border-top-left-radius: .3rem;
+    border-bottom-left-radius: .3rem;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+
+.pagination-lgg .page-link {
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.pagination-lgg .page-link {
+    color: #000000;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+
+/* ///// CSS noidungleft/right ///// */
+
+.button-seemore {
+    float: right;
+}
+
+.tabs {
+    position: relative;
+    float: left;
+    min-height: 300px;
+    width: 100%;
+    padding: 10px;
+}
+
+.tabs::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: darkgrey;
+    top: 100%;
+    left: 0;
+}
+
+.nd-tintucleft {
+    padding: 10px;
+    width: 30%;
+    float: left;
+}
+
+.nd-tintucright {
+    padding: 10px;
+    width: 70%;
+    float: left;
+}
+
+
+/* ///// CSS Class ///// */
+
+.tintuckhac .gifchitiet {
+    padding: 0px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.mt--100 {
+    margin-top: 0px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.bg-dark {
+    background-color: #343a40!important;
+}
+
+.text-white {
+    color: honeydew;
+}
+
+.fw-6 {
+    font-weight: 700;
+}
+
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.t-bold {
+    font-weight: bold;
+}
+
+.text-blue {
+    color: darkblue;
+}
+
+
+/* ///// BUTTON SHARE ///// */
+
+.card-share {
+    margin-top: 55px;
+    margin-bottom: 50px;
+}
+
+.socials-share {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.socials-share a {
+    padding: 4px 30px;
+    color: #fff;
+    line-height: 2em;
+    text-decoration: none;
+    border-radius: 2px;
+    white-space: nowrap;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.socials-share span.fa {
+    margin-right: 3px;
+}
+
+.bg-facebook {
+    background: #3a5899;
+}
+
+.bg-facebook:hover,
+.bg-facebook:focus {
+    background: #1d418d;
+}
+
+.bg-twitter {
+    background: #00acee;
+}
+
+.bg-twitter:hover,
+.bg-twitter:focus {
+    background: #0b93c7;
+}
+
+.bg-google-plus {
+    background: #db4437;
+}
+
+.bg-google-plus:hover,
+.bg-google-plus:focus {
+    background: #bb2a1d;
+}
+
+.bg-pinterest {
+    background: #cb1e26;
+}
+
+.bg-pinterest:hover,
+.bg-pinterest:focus {
+    background: #ae0e15;
+}
+
+.bg-email {
+    background: #dd5348;
+}
+
+.bg-email:hover,
+.bg-email:focus {
+    background: #ce3f34;
+}
